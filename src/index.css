@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-image: url('./jj.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-app {
+  background: rgb(177, 177, 177);
+  height: 100vh;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8%px;
+  font-size: 18px;
+}
+
+.dashboard {
+  background-color: skyblue;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8px ;
+}
+
+.dashboard1 {
+  background-color: skyblue;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8px ;
+}
+
+.dashboard h2 {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 8px ;
+  color: black;
+  font-size: 36px;
+}
+
+.form-add-todo {
+  background-color: gold;
+  padding: 8px 16px;
+  display: flex;
+  gap: 2px;
+}
+
+.form-add-todo > input {
+  flex-grow : 8;
+  font-size: large;
+  padding: 4px 8px;
+}
+.form-add-todo > button {
+  flex-grow : 2;
+}
+
+.todo-container {
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.todo-item {
+  background-color: white;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.buttonAdd {
+  background-color: greenyellow;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+.FatInput {
+  border-radius: 4px;
+  border: none;
+}
+
+.TdButton {
+  display: 'flex';
+  align-items: 'center';
+}
+
+.Tdbutton1 {
+  width: 50px;
+  background-color: gold;
+  margin-left: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.Tdbutton2 {
+  width: 70px;
+  background-color: rgb(255, 86, 86);
+  margin-left: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.Tdbutton3 {
+  width: 70px;
+  background-color: greenyellow;
+  margin-left: 5px;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.TdbuttonInput {
+  margin-left: 5px;
+  padding: 2px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.TdbuttonSave {
+  padding: 8px;
+  font-size: 22px;
+}
+
+.DashBoardBtn {
+  font-size: 22px;
+  margin-right: 30px;
+}
